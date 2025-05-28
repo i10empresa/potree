@@ -1,0 +1,134 @@
+{
+	"version": "2.0",
+	"name": "armazem",
+	"description": "",
+	"points": 216294,
+	"projection": "",
+	"hierarchy": {
+		"firstChunkSize": 1870, 
+		"stepSize": 4, 
+		"depth": 4
+	},
+	"offset": [-33.289000000000001, -63.236000000000004, -1.373],
+	"scale": [0.001, 0.001, 0.001],
+	"spacing": 2.2021406250000002,
+	"boundingBox": {
+		"min": [-33.289000000000001, -63.236000000000004, -1.373], 
+		"max": [248.58500000000004, 218.63800000000003, 280.50100000000003]
+	},
+	"encoding": "DEFAULT",
+	"attributes": [
+		{
+			"name": "position",
+			"description": "",
+			"size": 12,
+			"numElements": 3,
+			"elementSize": 4,
+			"type": "int32",
+			"min": [-33.289000000000001, -63.236000000000004, -1.373],
+			"max": [248.58500000000001, 30.914999999999999, 15.25],
+			"scale": [1, 1, 1],
+			"offset": [0, 0, 0]
+		},{
+			"name": "intensity",
+			"description": "",
+			"size": 2,
+			"numElements": 1,
+			"elementSize": 2,
+			"type": "uint16",
+			"min": [256],
+			"max": [32768],
+			"scale": [1],
+			"offset": [0]
+		},{
+			"name": "return number",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [1],
+			"max": [1],
+			"scale": [1],
+			"offset": [0]
+		},{
+			"name": "number of returns",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [1],
+			"max": [1],
+			"scale": [1],
+			"offset": [0]
+		},{
+			"name": "classification flags",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [0],
+			"max": [0],
+			"scale": [1],
+			"offset": [0]
+		},{
+			"name": "classification",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"histogram": [216294, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 
+			"min": [0],
+			"max": [0],
+			"scale": [1],
+			"offset": [0]
+		},{
+			"name": "user data",
+			"description": "",
+			"size": 1,
+			"numElements": 1,
+			"elementSize": 1,
+			"type": "uint8",
+			"min": [0],
+			"max": [0],
+			"scale": [1],
+			"offset": [0]
+		},{
+			"name": "scan angle",
+			"description": "",
+			"size": 2,
+			"numElements": 1,
+			"elementSize": 2,
+			"type": "int16",
+			"min": [0],
+			"max": [0],
+			"scale": [1],
+			"offset": [0]
+		},{
+			"name": "point source id",
+			"description": "",
+			"size": 2,
+			"numElements": 1,
+			"elementSize": 2,
+			"type": "uint16",
+			"min": [0],
+			"max": [0],
+			"scale": [1],
+			"offset": [0]
+		},{
+			"name": "gps-time",
+			"description": "",
+			"size": 8,
+			"numElements": 1,
+			"elementSize": 8,
+			"type": "double",
+			"min": [146.65522766113281],
+			"max": [634.441162109375],
+			"scale": [1],
+			"offset": [0]
+		}
+	]
+}
